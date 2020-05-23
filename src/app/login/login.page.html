@@ -1,0 +1,40 @@
+<ion-content class="ion-logo">
+    <div id="ion-img"> 
+      <img src="assets/logo_prueba.png">
+    </div>
+</ion-content>
+
+<ion-content class="ion-padding">
+  <div id="container">
+    <div id="texto-1">
+      <ion-label>
+        Bienvenido
+      </ion-label>
+    </div>
+    <ion-item>
+      <ion-label position="floating" color="tertiary">Correo</ion-label>
+      <ion-input [(ngModel)]="correo"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" color="tertiary">Contraseña</ion-label>
+      <ion-input type="password" [(ngModel)]="contraseina"></ion-input>
+    </ion-item>
+    <ion-button (click)="login()" shape="round" size="large">
+      Iniciar sesión
+    </ion-button>
+
+    <div class="social">
+      <ion-label>ó iniciar sesión con:</ion-label>
+      <div class="google">
+        <ion-button (click)="loginWithGoogle()" color="tertiary" shape="round" size="large"  fill="outline">
+          <ion-icon name="logo-google"></ion-icon>
+          Google
+        </ion-button>
+      </div>
+    </div>
+    <div class="registro">
+      <p>Aún no te has registrado?</p> <a href="/registro">Registrate</a>
+    </div>
+
+  </div>
+</ion-content>

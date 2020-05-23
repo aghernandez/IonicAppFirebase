@@ -1,0 +1,29 @@
+.ion-header{
+  text-align: center;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #046EF6;
+  margin-left: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.container-body {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px; 
+}
+.ion-searchbar { 
+  margin-top: 15px;
+  border-radius: 2em/10em;
+}
