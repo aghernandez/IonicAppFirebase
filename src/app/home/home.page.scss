@@ -23,7 +23,38 @@ h1{
   margin-right: auto;
   width: 350px; 
 }
-.ion-searchbar { 
+ion-searchbar { 
   margin-top: 15px;
   border-radius: 2em/10em;
+}
+
+ion-card{
+  height: 350px;
+  border-radius: 1.2rem;
+  box-shadow: inset;
+  background: linear-gradient(45deg, rgba(27,108,244,1) 0%, rgba(29,188,253,1) 50%, rgba(69,82,252,1) 100%);
+}
+
+ion-header{
+  margin-top: -10px;
+  height: 100px;
+}
+
+ion-card-header img{
+  border-radius: 1.2rem;
+  width: max-content;
+  margin: 0rem;
+}
+
+ion-card-subtitle{
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: serif;
+  color: #eee;
+} 
+
+ion-card-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #fff;
 }
