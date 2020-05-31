@@ -1,3 +1,7 @@
+*{
+  background-color: #f6f6f6;
+}
+
 .ion-header{
   text-align: center;
   margin: 0 auto;
@@ -9,6 +13,7 @@ h1{
   font-weight: bold;
   color: #046EF6;
   margin-left: 15px;
+  margin-top: 15px;
   font-size: 25px;
   text-align: center;
 }
@@ -29,10 +34,10 @@ ion-searchbar {
 }
 
 ion-card{
-  height: 350px;
+  height: 500px;
   border-radius: 1.2rem;
   box-shadow: inset;
-  background: linear-gradient(45deg, rgba(27,108,244,1) 0%, rgba(29,188,253,1) 50%, rgba(69,82,252,1) 100%);
+  border-color: rgba(62,52,233,1);
 }
 
 ion-header{
@@ -49,12 +54,24 @@ ion-card-header img{
 ion-card-subtitle{
   margin-top: 5px;
   font-family: 'Roboto', sans-serif;
-  font-weight: serif;
-  color: #eee;
+  font-weight: medium;
+  color: #1962e7;
 } 
 
 ion-card-title{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  color: #fff;
+  color: #0e15dd;
+}
+
+ion-icon{
+  float: right;
+  color: #0e15dd;
+  font-size: 1.2rem;
+}
+
+ion-card-content{
+  font-family: 'Roboto', sans-serif;
+  font-weight: serif;
+  font-size: 14px;
 }

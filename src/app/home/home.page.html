@@ -5,50 +5,92 @@
 <ion-content [fullscreen]="true">
   <div class="container-body">
     <div class="search">
-      <ion-searchbar showCancelButton="focus"></ion-searchbar>
+      <ion-searchbar showCancelButton="focus" placeholder="Que quieres buscar hoy..."></ion-searchbar>
     </div>
     <div class="cards">
       <ion-card>
-        <ion-card-header>
-          <img src="assets/plumber.jpg" alt="">
-          <ion-card-subtitle>Plomeros</ion-card-subtitle>
-          <ion-card-title>Mario Brous</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          Especialistas en fontanería, desde hace más de 10 años. 
-        </ion-card-content>
-      </ion-card>
-      <ion-card>
-        <img src="assets/carpintero.jpg" alt="">
-        <ion-card-header>
-          <ion-card-subtitle>Carpintero</ion-card-subtitle>
-          <ion-card-title>Carpintería José</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-          Diseñamos y creamos muebles a la medida para nuestros clientes.
-        </ion-card-content>
-      </ion-card>
-      <ion-card>
-        <ion-card-header>
-          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-          <ion-card-title>Card Title</ion-card-title>
-        </ion-card-header>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="../../assets/user.png">
+          </ion-avatar>
+          <ion-label>
+            <h3>Oscar Hernandez</h3>
+            <p>Carpinteria</p>
+          </ion-label>
+        </ion-item>
       
+        <img src="../../assets/plumber.jpg" alt="ion">
+        <ion-card-header>
+          <ion-card-title>Emmanuel</ion-card-title>
+        </ion-card-header>
         <ion-card-content>
-          Keep close to Nature's heart... and break clear away, once in awhile,
-          and climb a mountain or spend a week in the woods. Wash your spirit clean.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis mollis ligula sed ultrices.
         </ion-card-content>
+      
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <button>
+                <ion-icon name="thumbs-up"></ion-icon>
+                <div>1.5k Likes</div>
+              </button>
+            </ion-col>
+            <ion-col center text-center>
+              <button>
+                <ion-icon name="text"></ion-icon>
+                <div>4 Comments</div>
+              </button>
+            </ion-col>
+            <ion-col center text-center>
+              <button>
+                <ion-icon name="time"></ion-icon>
+                <div>11h ago</div>
+              </button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
       </ion-card>
       <ion-card>
-        <ion-card-header>
-          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-          <ion-card-title>Card Title</ion-card-title>
-        </ion-card-header>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="../../assets/user2.jpg">
+          </ion-avatar>
+          <ion-label>
+            <h3>John Doe</h3>
+            <p>Dec 10, 2019</p>
+          </ion-label>
+        </ion-item>
       
+        <img src="../../assets/carpintero.jpg" alt="ion">
+        <ion-card-header>
+          <ion-card-title>Hotel Panama Garden</ion-card-title>
+        </ion-card-header>
         <ion-card-content>
-          Keep close to Nature's heart... and break clear away, once in awhile,
-          and climb a mountain or spend a week in the woods. Wash your spirit clean.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis mollis ligula sed ultrices.
         </ion-card-content>
+      
+        <ion-footer>
+          <ion-row>
+            <ion-col center text-center>
+              <button>
+                <ion-icon name="thumbs-up"></ion-icon>
+                <div>1.5k Likes</div>
+              </button>
+            </ion-col>
+            <ion-col center text-center>
+              <button>
+                <ion-icon name="text"></ion-icon>
+                <div>4 Comments</div>
+              </button>
+            </ion-col>
+            <ion-col center text-center>
+              <button>
+                <ion-icon name="time"></ion-icon>
+                <div>11h ago</div>
+              </button>
+            </ion-col>
+          </ion-row>
+        </ion-footer>
       </ion-card>
     </div>
 
